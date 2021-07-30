@@ -3,7 +3,8 @@ using namespace std;
 int count=0;
 
 int Problem_2(int *a,int start,int end,int key)
-{
+{	
+    //Recursive Approach
     if(start<=end)
     {   
         count++;
