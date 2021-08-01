@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 bool Problem_2(int *a,int n,int key)
 {   
     int count=0;
