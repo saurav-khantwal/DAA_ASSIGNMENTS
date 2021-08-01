@@ -25,7 +25,13 @@ int Problem_2(int *a,int n)
 
 
 int main()
-{   
+{       
+        int t;
+        cout<<"Enter the number of test cases"<<endl;
+        cin>>t;
+        while(t)
+        {
+            
         int a[100];
         int n;
         cout<<"Enter the size for the array"<<endl;
@@ -36,5 +42,7 @@ int main()
             cin>>a[i];
         }
         Problem_2(a,n);
+        t--;
+        }
     return 0;
 }
